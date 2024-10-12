@@ -1,0 +1,29 @@
+{% extends 'app/base.html' %}
+
+{% block content %}
+    <h1 class="login">LOG IN</h1>
+
+  <form>
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+  </div>
+  <div class="container">
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+  </div>
+  <div>
+    <button type="submit" class="log"><a href="{% url 'home' %}">Login</a></button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container1" style="background-color:#D3D3D3">
+    <button type="button" class="cancelbtn"><a href="{% url 'home' %}">Cancel</a></button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+
+</form>
+
+{% endblock content %}

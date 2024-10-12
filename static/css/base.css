@@ -1,0 +1,121 @@
+.container2 {
+    overflow: auto;
+    padding: 80px;
+}
+
+.logo {
+    float: left;
+    width: 350px;
+    height: auto;
+    margin-right: 50px;
+}
+
+.text {
+    width: 1000px;
+}
+
+.hm {
+    text-align: center;
+    margin: 0;
+    padding: 80px;
+}
+h1 {
+    margin: 0; /* Remove default margin */
+}
+
+.login{
+    color: red;
+    text-align: center:
+}
+.abt{
+    color: black;
+    text-align: center;
+}
+
+.about{
+    height: 500px;
+    width: auto;
+
+}
+
+body{
+    background-color: rgba(0, 128, 0, 0.1);
+
+}
+
+form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #D3D3D3;
+    margin: auto;
+}
+
+input[type=text], input[type=password] {
+  width: 200px;
+  padding: 6px 10px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 8px;
+  margin: 4px 0.5;
+  border: none;
+  cursor: pointer;
+  width: 500px;
+}
+.log{
+  background-color: #04BB6D;
+  color: white;
+  width: 150px;
+  padding: 8px;
+}
+
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.cancelbtn {
+  width: auto;
+  padding: 8px;
+  background-color: #f44336;
+}
+
+
+
+.container {
+  padding: 8px;
+  width: 500px;
+}
+.container1 {
+  padding: 8px;
+  width: 280px;
+}
+
+
+span.psw {
+  float: right;
+  padding: 8px;
+  width: 200px;
+}
+
+
+@media screen and (max-width: 50px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100px;
+  }
+}
